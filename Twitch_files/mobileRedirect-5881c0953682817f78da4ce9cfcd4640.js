@@ -1,0 +1,1 @@
+(function(){"use strict";function r(){return document.cookie.match(e)}function i(){window.location.replace(t+window.location.pathname+window.location.search+window.location.hash)}var e=/\bmobile_opt_out=true\b/,t="https://m.twitch.tv",n=/(iPad|iPhone|iPod|Android|IEMobile|Windows Phone)/.test(navigator.userAgent);n&&window.MOBILE_VERSION_AVAILABLE&&!r()&&(window.stop(),i())})();
